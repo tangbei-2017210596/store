@@ -22,7 +22,7 @@ public interface AddressMapper {
     Address findByAid(Integer aid);
 
     /**
-     * 根据用户uid修改用户的收货地址为非默认
+     * 根据用户uid修改用户的收货地址为非默认。
      * @param uid
      * @return
      */
